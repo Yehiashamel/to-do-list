@@ -5,7 +5,8 @@
   box-sizing: border-box;
 }
  home{
-    width:100%;display: inline-block;
+    width:100%;
+    display: inline-block;
     min-height:100vh;
     padding:10px;
     background:linear-gradient(135deg,#153677,#4e085f);
@@ -17,7 +18,6 @@
     margin: 10px auto 20px;
     padding: 40px 30px 70px;
     border-radius:10px;
-    background-size:contain;
 }
 .to-do-app h2{
     color:#002765;
@@ -37,7 +37,6 @@
     border-radius: 30px;
     padding-left: 20px;
     margin-bottom: 25px;
-    flex-direction:column;
 }
 input{
     flex:1;
