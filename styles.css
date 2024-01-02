@@ -17,6 +17,7 @@
     margin: 10px auto 20px;
     padding: 40px 30px 70px;
     border-radius:10px;
+    height:100vh;
 }
 .to-do-app h2{
     color:#002765;
@@ -54,9 +55,6 @@ button{
     font-size: 16px;
     cursor: pointer;
     border-radius:40px
-}
-ul {
-    background:#fff;
 }
 ul li{
     list-style: none;
