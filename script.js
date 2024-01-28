@@ -3,7 +3,7 @@ const listContainer = document.getElementById('list-container');
 
 function addTask(){
   if (input.value === ''){
-    alert('you must');
+    alert('you must enter something');
     
   }
   else {
