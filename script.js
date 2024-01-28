@@ -11,7 +11,7 @@ function addTask(){
     li.innerHTML = input.value;
     listContainer.appendChild(li);
     const span = document.createElement('span');
-    span.innerHTML = 'X';
+    span.innerHTML = '✘';
     li.appendChild(span);
   }
   input.Value = "";
